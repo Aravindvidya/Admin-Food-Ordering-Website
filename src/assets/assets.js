@@ -6,6 +6,8 @@ import profile_image from './profile_image.png'
 import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 
+export const url = 'https://food-ordering-website-backend-2.onrender.com'
+
 export const assets ={
     logo,foodie_logo,
     add_icon,
@@ -13,6 +15,4 @@ export const assets ={
     profile_image,
     upload_area,
     parcel_icon
-}
-
-export const url = 'https://food-ordering-website-backend-2.onrender.com'
+} 

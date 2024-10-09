@@ -9,7 +9,7 @@ import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
 
-  const url="http://localhost:4000"
+  const url="https://food-ordering-website-backend-2.onrender.com"
   return (
     <div>
       <ToastContainer />
@@ -19,8 +19,8 @@ const App = () => {
         <Sidebar />
         <Routes>
           <Route path='/add' element={<Add url={url}/>} />
-          <Route path='/List' element={<List url={url}/>} />
-          <Route path='/Orders' element={<Orders url={url}/>} />
+          <Route path='/list' element={<List url={url}/>} />
+          <Route path='/orders' element={<Orders url={url}/>} />
         </Routes>
       </div>
     </div>
